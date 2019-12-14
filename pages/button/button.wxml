@@ -22,3 +22,5 @@
 
 <!-- 7.hover-class -->
 <button hover-class='pressed'>按钮</button>
+
+<view>12321</view>
