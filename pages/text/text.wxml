@@ -1,0 +1,27 @@
+<!--pages/text/text.wxml-->
+
+
+<!-- 1.基本使用 -->
+<!-- text和span标签一样 -->
+<!-- \n相当于换行br -->
+<text>pages/text/text.wxml\n\n</text>
+<text>helloworld</text>
+
+<!-- 2.selectable:true -->
+<!-- 默认情况下text中的文本长按是不能被选中的 -->
+<text selectable='{{true}}'>helloCXK\n</text>
+<!-- 在小程序里面大部分true是直接写名字就可以了默认true 不写selectable代表了false -->
+<text selectable>helloCXK\n</text>
+
+
+<!-- 3.space决定文本空格的大小 --> 
+<!-- ensp:半个中文字符大小
+     emsp：一个中文字符大小 -->
+<text>Hello World\n</text>
+<text space='nbsp'>Hello World\n</text>
+<text space='ensp'>Hello World\n</text>
+<text space='emsp'>Hello World\n</text>
+
+
+<!-- 4.decode属性：是否解码文本 -->
+<text decode>5 &gt; 3</text>
